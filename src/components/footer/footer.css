@@ -1,0 +1,34 @@
+.Footer{
+  width: 100%;
+  height: 115px;
+  background-color: #211f20;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Footer-links{
+  display: flex;
+  gap: 15px;
+  opacity: 0.4;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+}
+.Footer-link{
+  cursor: pointer;
+}
+.Footer-link:hover{
+ color: #ff6c14;
+}
+.Footer-icons{
+  display: flex;
+  gap: 20px;
+}
+.Footer-icon{
+  cursor: pointer;
+}
